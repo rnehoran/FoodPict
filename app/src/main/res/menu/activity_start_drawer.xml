@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_view"
+            android:icon="@drawable/ic_list"
+            android:title="View Meals" />
+        <item
+            android:id="@+id/nav_new"
+            android:icon="@drawable/ic_add"
+            android:title="New Meal" />
+        <item
+            android:id="@+id/nav_stats"
+            android:icon="@drawable/ic_stats"
+            android:title="Stats" />
+        <item
+            android:id="@+id/nav_goals"
+            android:icon="@drawable/ic_goals"
+            android:title="Goals" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="Help and Feedback" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+    </group>
+
+</menu>

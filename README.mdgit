@@ -1,0 +1,2 @@
+"# FoodPict"  initgit add README.mdgit commit -m "first commit"git remote add origin https://github.com/rnehoran/FoodPict.gitgit push -u origin master
+"# FoodPict"  initgit add README.mdgit commit -m "first commit"git remote add origin https://github.com/rnehoran/FoodPict.gitgit push -u origin master
