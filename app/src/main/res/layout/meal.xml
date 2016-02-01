@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="70dp"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Breakfast"
+        android:id="@+id/meal_name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="100 cals"
+        android:id="@+id/meal_cals"
+        android:layout_below="@+id/meal_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="100g fat"
+        android:id="@+id/meal_fat"
+        android:layout_below="@+id/meal_name"
+        android:layout_toRightOf="@+id/meal_cals"
+        android:layout_toEndOf="@+id/meal_cals"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="3 servings"
+        android:id="@+id/meal_servings"
+        android:layout_below="@+id/meal_name"
+        android:layout_toRightOf="@+id/meal_fat"
+        android:layout_toEndOf="@+id/meal_fat"
+        android:layout_margin="10dp" />
+</RelativeLayout>
